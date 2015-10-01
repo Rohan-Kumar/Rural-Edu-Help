@@ -88,6 +88,8 @@ public class TestRecyclerViewAdapter extends RecyclerView.Adapter<TestRecyclerVi
         protected Void doInBackground(Void... params) {
             URL url = null;
 
+
+
             try {
                 url = new URL("http://darshannn.hostei.com/fetch_sms.php");
                 HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
